@@ -1,8 +1,6 @@
 use crate::mesh::DiscordToMesh;
-use serenity::builder::{
-    CreateInteractionResponse, CreateInteractionResponseMessage, CreateMessage, CreateThread,
-    EditMessage,
-};
+use serenity::builder::{CreateMessage, CreateThread, EditMessage};
+use serenity::http::Http;
 use serenity::model::application::CommandInteraction;
 use serenity::model::channel::ChannelType;
 use serenity::model::id::{ChannelId, MessageId};

@@ -1,5 +1,3 @@
-use tokio::sync::mpsc;
-
 #[derive(Debug, Clone)]
 pub enum DiscordToMesh {
     Post {

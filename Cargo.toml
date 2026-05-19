@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+bytes = "1.5.0"
+prost = "0.14"
 meshtastic = { version = "0.1.8", features = ["tokio"] }
 serde = { version = "1.0.228", features = ["derive"] }
 serenity = { version = "0.12.5", features = ["client", "gateway", "rustls_backend", "model"] }
