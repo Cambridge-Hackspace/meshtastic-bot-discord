@@ -1,2 +1,8 @@
 [bot]
 token = "your_super_secret_token_here"
+
+[database]
+url = "sqlite://bot.db"
+
+[meshtastic]
+serial_port = "/dev/cuaU1"
